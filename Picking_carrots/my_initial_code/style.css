@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+}
+
+.game__screen {
+  background: no-repeat top / 100% 100% url(../img/background.png);
+  width: 700px;
+  height: 400px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background-color: bisque;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid black;
+}
+
+.game__button {
+  border-width: 4px;
+  margin: 7px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.game__timer {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border: solid 4px;
+  border-radius: 10px;
+  margin: auto;
+  font-size: 22px;
+}
+
+.carrot__count {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: solid 2px black;
+  background-color: lightcoral;
+  color: white;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 3px;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.modal__contents {
+  position: relative;
+  top: 290px;
+  width: 350px;
+  height: 110px;
+  border-radius: 20px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.replay__button {
+  border-width: 3px;
+  margin-top: 7px;
+}
+
+.result__text {
+  font-size: 30px;
+  color: white;
+}
+
+.unit__zone {
+  position: relative;
+  top: 80px;
+  width: 635px;
+  height: 130px;
+  margin: auto;
+}
+
+.unit {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.carrot {
+  width: 70px;
+}
+
+.carrot:hover {
+  transform: scale(1.1);
+}
+
+.bug {
+  width: 40px;
+}
+
+.bug:hover {
+  transform: scale(1.1);
+}
