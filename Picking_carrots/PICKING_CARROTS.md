@@ -8,12 +8,11 @@
 
 - ### 게임 화면 구성
 
-  |                           |                           |
-  | :-----------------------: | :-----------------------: |
-  |         초기 화면         |      게임 진행 화면       |
-  |      게임 정지 화면       |     게임 클리어 화면      |
-  | 게임 패배 화면(시간 초과) | 게임 패배 화면(벌레 물림) |
-  |                           |                           |
+  |                  |                           |                           |
+  | :--------------: | :-----------------------: | :-----------------------: |
+  |    초기 화면     |      게임 진행 화면       |      게임 정지 화면       |
+  | 게임 클리어 화면 | 게임 패배 화면(시간 초과) | 게임 패배 화면(벌레 물림) |
+  |                  |                           |                           |
 
     <img src="img/initial_scene.png" width="300px">
     <img src="img/play_scene.png" width="300px">
@@ -69,7 +68,10 @@
 
 - ### 새롭게 알게된 점
 
-  TODO: 정리 중...
+1.  게임 종료 시 나타나는 팝업 메세지를 구현하며 팝업창과 모달창에 대해 알게 되었고, 해당 메세지를 모달창으로 구현하는 과정에서 z-index 속성을 이해하기 위해 Stacking Context에 대해 공부하였다.
+
+    - [Pop-up vs Modal](https://github.com/he11/Js-Tech-Notes/blob/master/Web/FrontEnd/popup_vs_modal.md)
+    - [Stacking Context](https://github.com/he11/Js-Tech-Notes/blob/master/Web/FrontEnd/stacking_context.md)
 
 - ### 프로젝트 자료
 
